@@ -1,56 +1,92 @@
-# NetPractice
+_This project has been created as part of the 42 curriculum by sklaokli._
 
-This project has been created as part of the 42 curriculum by sklaokli.
+# NetPractice
 
 ## Description
 
-NetPractice is a 42 school project designed to provide a foundational understanding of computer networking. The project consists of a series of networking puzzles of increasing difficulty. The primary goal is to configure small-scale networks by assigning IP addresses, defining subnet masks, and setting up routing tables to ensure all nodes in the network can communicate successfully.
+NetPractice is a 42 school project designed to introduce and reinforce fundamental computer networking concepts through hands-on practice. The project consists of a series of interactive networking puzzles with increasing levels of difficulty.
 
-This project serves as a practical introduction to how data moves across local and global networks, emphasizing the logic behind addressing and routing.
+The primary goal is to correctly configure small-scale network topologies by assigning IP addresses, defining subnet masks, and configuring routing so that all devices can communicate successfully. Through these exercises, the project builds a practical understanding of how data flows across local and interconnected networks.
+
+---
 
 ## Instructions
 
-Running the Training Interface
-To work on the project levels, follow these steps:
+### Running the Training Interface
 
-- Clone this repository to your local machine.
+NetPractice does not require compilation or installation.
 
-- Locate the index.html file within the project directory.
+To start the training interface:
 
-- Open index.html in any modern web browser (Chrome, Firefox, Safari).
+1. Download `net_practice.1.8.tgz` to your local machine.
+2. Locate the `index.html` file in the project directory.
+3. Open `index.html` using any modern web browser (e.g., Chrome, Firefox, Safari).
+4. Solve each networking level by configuring the network elements until all connections are valid.
 
-- Solve the networking puzzles provided in the interface.
+---
+
+### Exporting Configurations
+
+Each level must be exported individually after it is successfully completed.
+
+To export a configuration:
+
+1. Complete a level until the interface confirms it is valid.
+2. Use the **export** option provided by the NetPractice interface.
+3. Save the generated configuration file.
+4. Repeat this process for all 10 levels.
+
+---
+
+### Submission Requirements
+
+- You must export **10 configuration files**, one for each level.
+- All exported files must be placed **at the root of the Git repository**.
+- Filenames must follow the default naming convention provided by the interface (e.g., `level_1.conf`, `level_2.conf`, …, `level_10.conf`).
+
+---
 
 ## Resources
 
-This project required a deep dive into the following fundamental networking topics:
+This project required studying and applying the following networking concepts:
 
 ### TCP/IP Addressing
 
-Managing IPv4 address allocation and identifying network vs. host portions.
+Understanding IPv4 addressing, network and host portions, and address allocation.
 
 ### Subnet Mask
 
-Using CIDR notation and decimal masks to define the size and boundaries of a sub-network.
+Using subnet masks and CIDR notation to define network size and boundaries.
 
 ### Default Gateway
 
-Configuring the "exit point" for traffic leaving a local network.
+Configuring the gateway used by hosts to communicate outside their local network.
 
 ### Routers and Switches
 
-Understanding how switches facilitate communication within a LAN and how routers connect different networks via routing tables.
+Understanding how switches operate within a LAN and how routers connect multiple networks using routing logic.
 
-### OSI layers
+### OSI Layers
 
-Understanding the 7 layers of networking, specifically focusing on the Network (Layer 3) and Data Link (Layer 2) layers.
+Studying the OSI model, with emphasis on:
 
-## Submission Details
+- Layer 2: Data Link
+- Layer 3: Network
 
-To successfully pass the project:
+---
 
-You must export the configuration files for all 10 levels.
+### Use of Artificial Intelligence
 
-All 10 exported configuration files must be placed at the root of your Git repository.
+AI tools were used as a **learning and support resource only**. Specifically, AI was used to:
 
-Ensure the filenames follow the default naming convention provided by the interface (e.g., level_1.conf, level_2.conf, etc.).
+- Clarify networking concepts such as subnetting, routing, and IP addressing
+- Verify understanding of theoretical concepts related to the OSI model
+- Improve documentation clarity and structure
+
+All network configurations, problem solving, and exported solutions were completed manually by the author.
+
+---
+
+## Notes
+
+This project focuses on conceptual understanding rather than implementation. No programming language, compilation step, or external dependencies are required.
